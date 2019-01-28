@@ -20,4 +20,5 @@ RUN gem install bundler && bundle install --without development test --jobs 10 -
 COPY . ./
 
 EXPOSE 3000
-CMD ["bundle", "exec", "jekyll", "serve", "--port", "3000"]
+CMD ["foreman", "start"]
+# CMD ["bundle", "exec", "jekyll", "serve", "--port", "3000"]
