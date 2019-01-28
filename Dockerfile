@@ -1,6 +1,7 @@
 FROM ruby:2.5.3
 
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+# RUN apt-get install -qq curl software-properties-common
+RUN curl -sL http://deb.nodesource.com/setup_11.x | bash -
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 
@@ -18,5 +19,5 @@ RUN gem install bundler && bundle install --without development test --jobs 10 -
 
 COPY . ./
 
-EXPOSE 4000
-CMD ["bundle", "exec", "jekyll", "serve"]
+EXPOSE 3000
+CMD ["bundle", "exec", "jekyll", "serve", "--port", "3000"]
