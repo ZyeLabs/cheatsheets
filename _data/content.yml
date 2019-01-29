@@ -41,10 +41,9 @@ not_found:
   home: Back to home
 
 announcement:
-  id: 2017-10-26-twitter
+  id: 2019-01-25-welcome
   title: |
-    New: We're on Twitter ♥️
+    Welcome to our Cheatsheets! :-)
   body: |
-    Follow [@devhints](https://twitter.com/devhints) on Twitter for daily "today I learned" snippets!
-
-    [![](https://img.shields.io/twitter/follow/devhints.svg?style=social&label=@devhints)](https://twitter.com/devhints)
+    Please let us know what you think.<br>
+    More cheatsheets to come!
