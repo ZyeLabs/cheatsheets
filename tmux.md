@@ -1,6 +1,7 @@
 ---
 title: tmux
 category: CLI
+tags: [Featured]
 ---
 
 ### Commands

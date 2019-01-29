@@ -1,6 +1,7 @@
 ---
 title: Git tricks
 category: Git
+tags: [Featured]
 ---
 
 ## Refs
@@ -27,15 +28,15 @@ category: Git
 
     # delete remote branch
       git push origin :$branchname
-      
+
     # go back to previous branch
       git checkout -
-      
+
 ## Collaboration
 
     # Rebase your changes on top of the remote master
       git pull --rebase upstream master
-      
+
     # Squash multiple commits into one for a cleaner git log
     # (on the following screen change the word pick to either 'f' or 's')
       git rebase -i $commit_ref
@@ -145,4 +146,4 @@ Misc
 
     git config set commit.gpgsign true                # Sign commits by default
     git commit -m "Implement feature Y" --no-gpg-sign # Do not sign
-    
+

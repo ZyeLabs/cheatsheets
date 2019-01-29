@@ -2,6 +2,7 @@
 title: regexp
 category: Others
 layout: 2017/sheet
+tags: [Featured]
 weight: -1
 authors:
   - github: rizqyhi
@@ -24,6 +25,7 @@ description: |
 | `[abc]` | Any of a, b, or c |
 | `[a-e]` | Characters between `a` and `e` |
 | `[1-9]` | Digit between `1` and `9` |
+
 
 ### Anchors
 

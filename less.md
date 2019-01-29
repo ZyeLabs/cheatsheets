@@ -1,5 +1,7 @@
 ---
 title: Less.js
+category: CSS
+layout: 2017/sheet
 ---
 
 ### Functions

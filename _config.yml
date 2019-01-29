@@ -26,6 +26,9 @@ exclude:
   - docker_compose.yml
   - .ruby-version
   - .ruby-gemset
+  - fitness
+  - archived
+  - deprecated
 
 # Markdown
 

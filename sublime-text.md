@@ -1,5 +1,6 @@
 ---
 title: Sublime Text
+tags: [Featured]
 category: Apps
 layout: 2017/sheet
 ---

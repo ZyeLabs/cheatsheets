@@ -3,6 +3,7 @@ title: Markdown
 category: Markup
 layout: 2017/sheet
 prism_languages: [markdown]
+tags: [Featured]
 updated: 2017-09-20
 weight: -1
 ---

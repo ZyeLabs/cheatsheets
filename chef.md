@@ -1,6 +1,7 @@
 ---
 title: Chef
 category: Devops
+tags: [Featured]
 layout: 2017/sheet
 ---
 

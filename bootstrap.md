@@ -2,6 +2,7 @@
 title: Bootstrap
 layout: 2017/sheet
 prism_languages: [scss, haml, html]
+tags: [Featured]
 weight: -1
 category: CSS
 description: |

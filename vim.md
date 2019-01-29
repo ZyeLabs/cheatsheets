@@ -2,11 +2,10 @@
 title: Vim
 category: Vim
 layout: 2017/sheet
-tags: [Featured]
 updated: 2018-09-11
 weight: -10
 intro: |
- [Vim](http://www.vim.org/) is a very efficient text editor. This reference was made for Vim 8.0.   
+ [Vim](http://www.vim.org/) is a very efficient text editor. This reference was made for Vim 8.0.
  For shortcut notation, see `:help key-notation`.
 ---
 
@@ -90,7 +89,7 @@ Getting started
 | `:tabedit [file]`     | Edit file in a new tab          |
 | `:tabfind [file]`     | Open file if exists in new tab  |
 | `:tabclose`           | Close current tab               |
-| `:tabs`               | List all tabs                   | 
+| `:tabs`               | List all tabs                   |
 | `:tabfirst`           | Go to first tab                 |
 | `:tablast`            | Go to last tab                  |
 | `:tabn    `           | Go to next tab                  |
@@ -254,11 +253,11 @@ Text objects let you operate (with an *operator*) in or around text blocks (*obj
 See [Operators](#operators) for other things you can do.
 
 ### Diff
- 
+
 | Shortcut                             | Description                              |
 | ---                                  | ---                                      |
 | `gvimdiff file1 file2 [file3]`       | See differencies between files, in HMI   |
- 
+
 
 Misc
 ----
